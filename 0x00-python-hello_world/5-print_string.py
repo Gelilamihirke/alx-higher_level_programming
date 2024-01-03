@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-kal= "Holberton School"
-print(f"{kal}{kal}{kal})
+str= "Holberton School"
+print(f"{str}{str}{str})
 print(kal[:9])
