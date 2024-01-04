@@ -4,5 +4,5 @@ if __name__ == "__main__":
     hulu = dir()
     for i in range(0, len(hulu)):
         if hulu[i][:2] != "__":
-            print("(:s)".format(hulu[i]))
+            print("{:s}".format(hulu[i]))
 
