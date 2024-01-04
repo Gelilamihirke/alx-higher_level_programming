@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    from hidden_4 import *
-    hulu = dir()
-    for i in range(0, len(hulu)):
-        if hulu[i][:2] != "__":
-            print("{:s}".format(hulu[i]))
-
+    import hidden_4
+    sem = dir(hidden_4)
+    for sem in sems:
+        if sem[:2] != "__":
+            print(sem)
