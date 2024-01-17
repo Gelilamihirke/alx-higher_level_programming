@@ -1,9 +1,9 @@
 #!/usr/bin/pythod3
 def uniq_add(my_list=[]):
-    unique_numbers = set(my_list)
-    sum_of_unique = 0
+    uniq_set = set(my_list)
+    num = 0
 
-    for number in unique_numbers:
-        sum_of_unique += number
+    for i in uniq_set:
+        num += i
 
-    return sum_of_unique
+    return num
